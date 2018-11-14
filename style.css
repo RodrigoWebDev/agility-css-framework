@@ -1,3 +1,5 @@
+/*########## Typography ########## */
+
 /* Text */
 
 .ta-l {
@@ -17,11 +19,51 @@
 }
 
 .ta-ini {
-  text-align: inital;
+  text-align: initial;
 }
 
 .ta-inh {
   text-align: inherit;
+}
+
+.td-n {
+  text-decoration: none;
+}
+
+.td-u {
+  text-decoration: underline;
+}
+
+.ti-0 {
+  text-indent: 0;
+}
+
+.to-c {
+  text-overflow: clip;
+}
+
+.to-e {
+  text-overflow: ellipsis;
+}
+
+.ts-n {
+  text-shadow: none;
+}
+
+.tt-n {
+  text-transform: none;
+}
+
+.tt-c {
+  text-transform: capitalize;
+}
+
+.tt-u {
+  text-transform: uppercase;
+}
+
+.tt-l {
+  text-transform: lowercase;
 }
 
 /* Color */
@@ -65,3 +107,51 @@
 .lh-n {
   line-height: normal;
 }
+
+/*########## Positioning ########## */
+
+.p-s {
+  position: static;
+}
+
+.p-r {
+  position: relative;
+}
+
+.p-a {
+  position: absolute;
+}
+
+.p-f {
+  position: fixed;
+}
+
+.r-0 {
+  right: 0;
+}
+
+.l-0 {
+  left: 0;
+}
+
+.b-0 {
+  bottom: 0;
+}
+
+.t-0 {
+  top: 0;
+}
+
+.tr-ty-50 {
+  transform: translateY(-50%);
+}
+
+.tr-tx-50 {
+  transform: translateX(-50%);
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+/*########## Backgrounds ########## */
