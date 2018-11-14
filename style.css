@@ -25,3 +25,43 @@
 }
 
 /* Color */
+
+.c-t {
+  color: transparent;
+}
+
+/* Font  */
+
+.fs-n {
+  font-style: normal;
+}
+
+.fs-i {
+  font-style: italic;
+}
+
+.fw-n {
+  font-weight: normal;
+}
+
+.fw-b {
+  font-weight: bold;
+}
+
+.fw-l {
+  font-weight: lighter;
+}
+
+.fw-br {
+  font-weight: bolder;
+}
+
+/* Letter spacing & Line height */
+
+.ls-n {
+  letter-spacing: normal;
+}
+
+.lh-n {
+  line-height: normal;
+}
