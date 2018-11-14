@@ -1,0 +1,27 @@
+/* Text */
+
+.ta-l {
+  text-align: left;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-j {
+  text-align: center;
+}
+
+.ta-ini {
+  text-align: inital;
+}
+
+.ta-inh {
+  text-align: inherit;
+}
+
+/* Color */
