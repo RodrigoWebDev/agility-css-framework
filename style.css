@@ -1,6 +1,252 @@
+/*########## Animation ########## */
+
+.a-n{
+  animation: none 0 ease 0 1 normal none running;
+}
+
+/* animation-timing-function */
+.atf-e{
+  animation-timing-function: ease;
+}
+
+.atf-ei{
+  animation-timing-function: ease-in;
+}
+
+.atf-eo{
+  animation-timing-function: ease-out;
+}
+
+.atf-eio{
+  animation-timing-function: ease-in-out;
+}
+
+.atf-ss{
+  animation-timing-function: step-start;
+}
+
+.atf-se{
+  animation-timing-function: step-end;
+}
+
+/* animation-iteration-count */
+
+.aic-i{
+  animation-iteration-count: infinite;
+}
+
+/* animation-direction */
+
+.ad-n{
+  animation-direction: normal;
+}
+
+.ad-r{
+  animation-direction: reverse;
+}
+
+.ad-a{
+  animation-direction: alternate;
+}
+
+.ad-ar{
+  animation-direction: alternate-reverse;
+}
+
+/* animation-fill-mode */
+
+.afm-n{
+  animation-fill-mode: none;
+}
+
+.afm-f{
+  animation-fill-mode: forwards;
+}
+
+.afm-b{
+  animation-fill-mode: backwards;
+}
+
+.afm-bo{
+  animation-fill-mode: both;
+}
+
+/* animation-play-state */
+
+.aps-p{
+  animation-fill-mode: paused;
+}
+
+.aps-r{
+  animation-fill-mode: running;
+}
+
 /*########## Typography ########## */
 
-/* Text */
+/* colors */
+.c-t {
+  color: transparent;
+}
+
+/* reds */
+
+.c-rir{
+  color: IndianRed;
+}
+
+.c-rs{
+  color: Salmon;
+}
+
+.c-rds{
+  color: DarkSalmon;
+}
+
+.c-rc{
+  color: Crimson;
+}
+
+.c-rr{
+  color: Red;
+}
+
+.c-rfb{
+  color: FireBrick;
+}
+
+.c-rdr{
+  color: DarkRed;
+}
+
+/* greens */
+
+.c-ggy{
+  color: GreenYellow;
+}
+
+.c-gc{
+  color: Chartreuse;
+}
+
+.c-glg{
+  color: LawnGreen;
+}
+
+.c-gl{
+  color: Lime;
+}
+
+.c-glmg{
+  color: LimeGreen;
+}
+
+.c-gpg{
+  color: PaleGreen;
+}
+
+.c-glig{
+  color: LightGreen;
+}
+
+.c-gmsg{
+  color: MediumSpringGreen;
+}
+
+.c-gsg{
+  color: SpringGreen;
+}
+
+.c-gmesg{
+  color: MediumSeaGreen;
+}
+
+.c-gseg{
+  color: SeaGreen;
+}
+
+.c-gfg{
+  color: ForestGreen;
+}
+
+.c-g{
+  color: Green;
+}
+
+.c-gdg{
+  color: DarkGreen;
+}
+
+.c-god{
+  color: OliveDrab;
+}
+
+.c-go{
+  color: Olive;
+}
+
+.c-gdog{
+  color: DarkOliveGreen;
+}
+
+.c-gma{
+  color: MediumAquamarine	;
+}
+
+.c-gdsg{
+  color: DarkSeaGreen;
+}
+
+.c-glsg{
+  color: LightSeaGreen;
+}
+
+.c-gdc{
+  color: DarkCyan;
+}
+
+.c-gt{
+  color: Teal;
+}
+
+/* yellows */
+
+.c-yg{
+  color: Gold;
+}
+
+.c-y{
+  color: Yellow;
+}
+
+.c-ylc{
+  color: LemonChiffon	;
+}
+
+.c-ylgy{
+  color: LightGoldenrodYellow	;
+}
+
+.c-ym{
+  color: Moccasin;
+}
+
+.c-ypp{
+  color: PeachPuff;
+}
+
+.c-ypg{
+  color: PaleGoldenrod;
+}
+
+.c-yk{
+  color: Khaki;
+}
+
+.c-ydk{
+  color: DarkKhaki;
+}
+
+/* text-align */
 
 .ta-l {
   text-align: left;
@@ -26,6 +272,8 @@
   text-align: inherit;
 }
 
+/* text-decoration */
+
 .td-n {
   text-decoration: none;
 }
@@ -34,9 +282,13 @@
   text-decoration: underline;
 }
 
+/* text-indent */
+
 .ti-0 {
   text-indent: 0;
 }
+
+/* text-overflow */
 
 .to-c {
   text-overflow: clip;
@@ -46,9 +298,13 @@
   text-overflow: ellipsis;
 }
 
+/* text-shadow */
+
 .ts-n {
   text-shadow: none;
 }
+
+/* text-transform */
 
 .tt-n {
   text-transform: none;
@@ -66,13 +322,7 @@
   text-transform: lowercase;
 }
 
-/* Color */
-
-.c-t {
-  color: transparent;
-}
-
-/* Font  */
+/* font-style */
 
 .fs-n {
   font-style: normal;
@@ -81,6 +331,8 @@
 .fs-i {
   font-style: italic;
 }
+
+/* font-weight */
 
 .fw-n {
   font-weight: normal;
@@ -98,7 +350,7 @@
   font-weight: bolder;
 }
 
-/* Letter spacing & Line height */
+/* letter-spacing */
 
 .ls-n {
   letter-spacing: normal;
@@ -346,6 +598,30 @@
 
 .as-fe {
   align-self: flex-end;
+}
+
+.ac-c{
+  align-content: center;
+}
+
+.ac-s{
+  align-content: stretch;
+}
+
+.ac-fs{
+  align-content: flex-start;
+}
+
+.ac-fe{
+  align-content: flex-end;
+}
+
+.ac-fs{
+  align-content: space-between;
+}
+
+.ac-a{
+  align-content: space-around;
 }
 
 .fb-a {
